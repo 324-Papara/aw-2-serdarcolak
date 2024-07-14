@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dy3IxlFXM4mS2iTBsxX+K9xsfQk1YUaVQ9jQ4RSrhSSJeePHvNAr5IWc3CzGkDPDGkLKW96OAorDScLXJ/OeQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\test\\RiderProjects\\Para.Api\\Para.Schema\\Para.Schema.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\test\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\test\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
