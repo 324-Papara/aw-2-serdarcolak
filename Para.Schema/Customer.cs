@@ -22,4 +22,6 @@ public class CustomerResponse : BaseResponse
     public string Email { get; set; }
     public int CustomerNumber { get; set; }
     public DateTime DateOfBirth { get; set; }
+    public List<CustomerAddressResponse> CustomerAddresses { get; set; }
+    public List<CustomerPhoneResponse> CustomerPhones { get; set; }
 }
