@@ -58,7 +58,7 @@ public class Startup
         
         services.AddMediatR(typeof(CreateCustomerCommand).GetTypeInfo().Assembly);
         //fluent validation
-        services.AddValidatorsFromAssemblyContaining<CustomerValidator>();
+        services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CustomerValidator>());
         
         
         services.AddTransient<CustomService1>();
